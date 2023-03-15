@@ -389,7 +389,84 @@ padding-bottom: -15px;
     padding-left: 10px;
 }
 
+.header-new{
+    visibility: hidden;
+}
+
+.info{
+    visibility: hidden;
+}
 
 
+@media all and (min-width: 300px) and (max-width: 600px){
+    .he{
+        visibility: hidden;
+        display: none;
+       }
+    .header-new{
+        visibility: visible;
+       
+    }
+    .header-new a{
+        padding-left: 2px;
+    }
+    .lefthe{
+        display: inline;
+        margin-left: 20px;
+    }
+    /* header */
 
 
+    body{
+        margin: 0;
+        padding: 0;
+        width: 286px;        
+    }
+
+    /* aside */
+
+    main aside{
+        display: block;
+        margin-left: 20px;
+        margin-top: 1px;
+        background-color:#f9f9f9;
+    }
+    aside table,p,#linked,h4,.par,.time,.re{
+    visibility: hidden;
+    display: none;
+    }
+
+    aside .btn-icon{
+        margin-left: 15px;
+    }
+
+    /* section */
+    main section{        
+        margin-left: 15px;
+        margin-top: -420px;
+    }
+    section .links{
+        margin-left: 30px;
+    }
+    .row img{
+        display: block;
+    }
+    .colum3 img:last-child{
+        padding-bottom: 50px;
+    }
+    main section .info{
+     visibility: visible;
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+     margin-left: -20px;
+     padding-right: 15px;     
+    }
+
+
+    /* footer */
+    footer{
+        display: none;
+    }
+
+}
